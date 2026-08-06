@@ -43,6 +43,45 @@
 3. Activar **CatcherAuto** como Accessibility Service en Ajustes del sistema
 4. Configurar restaurantes deseados y activar escaneo
 
+## AI Development Benchmark
+
+CatcherAuto fue construido por un desarrollador humano trabajando con IA como **pareja de pair programming**. La IA aceleró la implementación — la arquitectura Android, el diseño del Accessibility Service y las decisiones técnicas permanecieron humanas.
+
+### Cómo trabajamos juntos
+
+| Responsabilidad humana | IA implementó, siempre revisada por humano |
+|------------------------|------------------------------------------|
+| Diseño del flujo de automatización | Generación de código Kotlin |
+| Lógica de detección de píxeles y OCR | Configuración de Gradle, scaffolding |
+| Filtrado de pedidos válidos | Refactorización, mejora de tipos |
+| Revisión y aceptación del código | Testing auxiliar, documentación |
+
+**Workflow:** `Idea → Spec → Implementación (IA) → Revisión humana → Test → Refinar → Merge`
+
+### AI Development Principles
+
+- La IA nunca tomó decisiones de producto.
+- Toda implementación partió de una especificación escrita.
+- La documentación se trató como contexto ejecutable para la IA.
+- Todo código generado requirió revisión humana.
+- La arquitectura prevaleció sobre la velocidad de implementación.
+
+<details>
+<summary><strong>Métricas de soporte</strong></summary>
+<br>
+
+| Métrica | Valor |
+|---------|-------|
+| Sesiones de IA | 1 registrada |
+| Eficiencia media de sesión | 95/100 |
+| Modelo principal | Claude (Claude Code) |
+
+_Medido con [ClaudeStat](https://github.com/DeibyGS/claudestat). Valores aproximados; gran parte del trabajo pre-dates al registro exhaustivo de sesiones._
+
+</details>
+
+---
+
 ## Autor
 
 **[Deiby Gorrin](https://deiby.dev)** — Fullstack Developer
