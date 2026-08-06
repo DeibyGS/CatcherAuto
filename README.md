@@ -1,10 +1,18 @@
+<div align="center">
+
 # CatcherAuto
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)](.)
-[![Android](https://img.shields.io/badge/Android-34A853?style=flat&logo=android&logoColor=white)](.)
-[![ML Kit](https://img.shields.io/badge/ML_Kit-4285F4?style=flat&logo=google&logoColor=white)](.)
+**Automated delivery order acceptance on Android — pixel scanning and ML Kit OCR through the Accessibility Service.**
 
-> Android automation app using Google ML Kit to automatically accept delivery orders. Uses real-time OCR and screen analysis via Accessibility Service.
+Reads GO! buttons, order details, and white/blacklist rules in real time, then taps accept automatically. Built with Kotlin and Material 3, it filters valid orders by city, distance, and restaurant so only matching deliveries pass through.
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9-7F52FF?logo=kotlin&logoColor=white)](.)
+[![Android](https://img.shields.io/badge/Android-7.0%2B-34A853?logo=android&logoColor=white)](.)
+[![ML Kit](https://img.shields.io/badge/ML_Kit-OCR-4285F4?logo=google&logoColor=white)](.)
+
+[How It Works](#how-it-works) • [Tech Stack](#tech-stack) • [Features](#features) • [How to Run](#how-to-run) • [Built with AI](#built-with-ai)
+
+</div>
 
 ## How It Works
 
@@ -43,9 +51,9 @@
 3. Enable **CatcherAuto** as an Accessibility Service in system Settings
 4. Configure desired restaurants and activate scanning
 
-## AI Development Benchmark
+## Built with AI
 
-CatcherAuto was engineered by a human developer working with AI as a **pair programming partner**. The AI accelerated implementation — the Android architecture, Accessibility Service design, and engineering decisions stayed human.
+CatcherAuto was engineered by a human developer working with AI as a **pair programming partner**. AI accelerated implementation — the Android architecture, Accessibility Service design, and engineering decisions stayed human.
 
 ### How we worked together
 
@@ -76,7 +84,7 @@ CatcherAuto was engineered by a human developer working with AI as a **pair prog
 | Avg session efficiency | 95/100 |
 | Primary model | Claude (Claude Code) |
 
-_Measured with [ClaudeStat](https://github.com/DeibyGS/claudestat). Approximate values; most work pre-dates exhaustive session logging._
+_Measured with [ClaudeStat](https://github.com/DeibyGS/claudestat). Approximate values; most work pre-dates exhaustive session logging, so metrics reflect 1 logged session only._
 
 </details>
 
