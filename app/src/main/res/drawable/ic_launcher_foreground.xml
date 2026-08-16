@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rayo: símbolo de acción automática/energía -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 58,18 L 40,56 L 55,56 L 46,90 L 73,52 L 57,52 Z"/>
+
+    <!-- Línea decorativa inferior (scan line) -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.35"
+        android:pathData="M 28,96 L 80,96"/>
+</vector>

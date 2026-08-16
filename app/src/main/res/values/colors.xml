@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fondos -->
+    <color name="bg_dark">#080C14</color>
+    <color name="surface">#0D1821</color>
+
+    <!-- Acento principal -->
+    <color name="cyan_accent">#00E5FF</color>
+    <color name="cyan_dim">#0097A7</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#7A8FA6</color>
+
+    <!-- Bordes -->
+    <color name="border_inactive">#1A2840</color>
+
+    <!-- Switch -->
+    <color name="switch_track_on">#3300E5FF</color>
+    <color name="switch_track_off">#1A2840</color>
+    <color name="switch_thumb_on">#00E5FF</color>
+    <color name="switch_thumb_off">#3A4A60</color>
+</resources>
