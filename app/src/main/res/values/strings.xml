@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatcherAuto</string>
+    <string name="accessibility_description">Acepta pedidos automáticamente en Catcher Driver para restaurantes seleccionados</string>
+</resources>
